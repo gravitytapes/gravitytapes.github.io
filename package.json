@@ -1,0 +1,15 @@
+{
+  "name": "gravitytapes",
+  "version": "1.0.0",
+  "description": "Gravity Tapes Web Site",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Brady Smith",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^2.4.1"
+  }
+}

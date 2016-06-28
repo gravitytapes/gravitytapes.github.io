@@ -1,0 +1,30 @@
+.random-name {
+    bottom: 166px;
+    left: 429px;
+}
+
+.section-font img {
+	height: 230px;
+}
+
+.album-size {
+	width: 100px;
+}
+
+.slider {
+    bottom: 515px;
+}
+
+.bar-img {
+    position: absolute;
+    top: 720px;
+}
+
+.bar-img img {
+    height: 200px;
+    width: 760px;
+}
+
+#pp-nav.right {
+    right: 50px !important;
+}

@@ -1,0 +1,103 @@
+#pp-nav.right {
+    right: 100px !important;
+}
+
+@viewport {
+width: device-width;
+height: device-height;
+}
+
+
+.section-font img {
+    position: relative;
+    bottom: 500px;
+    padding-bottom: 0px;
+    max-height: 250px;
+    max-width: 239px;
+    margin-bottom: 5px;
+}
+
+
+.btn-grp-1{
+	top: 0px;
+}
+
+.btn-grp-1 a{
+	margin-left: 85px;
+    margin-right: 115px;
+    margin-top: 10px;
+}
+
+.btn-grp-1 a:hover {
+    margin-left: 85px;
+    margin-right: 115px;
+    margin-top: 10px;
+}
+
+.social-icons {
+	padding: 0px;
+}
+
+/*.materialboxed.active {
+	width: 100%;
+	min-height: 250px;
+}*/
+
+.btn-grp-2 {
+    display: none;
+}
+
+.social-icons a {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+.about-section {
+	margin-right: 0px;
+    bottom: 515px;
+    font-size: 21px;
+    max-height: 260px;
+    overflow: auto;
+}
+
+.form-style {
+    bottom: 400px;
+}
+
+.header-text2 {
+    display: none;
+}
+
+.header-text {
+    display: none;
+
+}
+
+.listen-header {
+    display: none;
+}
+
+.section-font {
+    position: absolute;
+    bottom: 0px;
+}
+
+.show-list {
+    position: absolute;
+    bottom: 100px;
+}
+
+.mobile-hide {
+    display: none;
+}
+
+.slider {
+    top: 325px;
+}
+
+.about-section {
+    position: absolute;
+    bottom: 620px;
+}
+

@@ -1,0 +1,446 @@
+@font-face {
+    font-family: quicksand;
+    src: url(../fonts/Quicksand-Light.otf);
+}
+
+@font-face {
+    font-family: quicksand-reg;
+    src: url(../fonts/Quicksand-Regular.otf);
+}
+
+@font-face {
+	font-family: quicksand-bold;
+	src: url(../fonts/Quicksand-Bold.otf);
+}
+
+
+* {
+	font-family: quicksand;
+}
+
+html, body{
+	max-width: 100%;
+	max-height: 100%;
+	overflow: hidden;
+}
+
+.icon-background {
+	background-color: black;
+	padding: 8px;
+	margin-top: 3px;
+}
+
+.fade {
+	transition:1.5s linear all;
+}
+/*For ng-animate*/
+.fade.ng-hide {
+  	transition:1.5s linear all;
+  	opacity:0;
+}
+/*END NG-ANIMATE*/
+
+
+/*FOR MODAL*/
+.modal-content img {
+	max-height: 520px;
+}
+
+.close-position {
+	margin-bottom: -30px !important;
+}
+/*END MODAL*/
+
+
+/*FOR BACKGROUNDS*/
+.mainbackground {
+	background-image: url(../pics/backgroundPic.png);
+	background-size: 100%;
+}
+
+.mainbackground2 {
+	background-image: url(../pics/backgroundPic.png);
+	background-size: 100%;
+}
+/*END BACKGROUNDS*/
+
+.name-position {
+    margin-top: 0px;
+}
+
+.half-opacity {
+	height: 100%;
+	width: 100%;
+	display: inline;
+	position: absolute;
+	background-color: white;
+	opacity: .35;
+	z-index: -2;
+	top: 0px;
+}
+
+/*.mainheader {
+	position: relative;
+	right: 5px;
+	margin-top: 0px;
+	padding-top: 220px;
+	font-family: quicksand;
+	font-size: 170px;
+	color: white;
+}
+
+.mainheader2 {
+	bottom: 143px;
+    right: 160px;
+	color: black;
+	font-size: 107px;
+	font-family: quicksand;
+	position: relative;
+	z-index: 1;
+}
+
+.mainheader3 {
+    bottom: 287px;
+    left: 441px;
+	color: black;
+	font-size: 107px;
+	font-family: quicksand;
+	position: relative;
+	z-index: 1;
+}*/
+
+.random-name {
+    color: black;
+    display: inline-block;
+    position: relative;
+    font-family: quicksand;
+    bottom: 158px;
+    left: 900px;
+}
+
+/*.social-icons {
+	padding-top: 200px;
+}*/
+
+.social-icons a {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.social-icons i {
+	color: #810016;
+}
+
+.social-icons i:hover {
+	color: #D40024;
+} 
+
+
+/* BUTTONS */
+.btn-custom {
+	font-size: 35px;
+}
+
+.btn-custom i {
+	padding-right: 10px;
+}
+
+.btn-custom2 {
+	color: black;
+	position: relative;
+	bottom: 200px;
+	font-size: 30px;
+	margin-bottom: 50px;
+}
+
+.btn-grp-1 {
+    position: relative;
+    bottom: 60px;
+}
+
+.btn-grp-1:hover {
+	position: relative;
+	bottom: 60px;
+}
+
+.btn-grp-1 a {
+	color: black;
+    margin-left: 125px;
+    margin-right: 125px;
+    height: 43px;
+    border-style: solid;
+	border-color: black;
+}
+
+.btn-grp-1 a:hover {
+	color: #810016;
+	font-weight: bold;
+	border-style: solid;
+	border-color: #810016;
+	margin-left: 125px;
+    margin-right: 125px;
+}
+
+.btn-grp-1 i {
+	padding-bottom: 20px;
+}
+
+
+.btn-custom2 i {
+	padding: 0px 10px 0px 10px;
+}
+
+.btn-custom3 {
+	font-size: 30px;
+}
+
+.btn-grp-2 {
+    padding-bottom: 50px;
+    position: relative;
+    bottom: 175px;
+}
+
+.btn-grp-2 a {
+	color: black;
+    margin-left: 125px;
+    margin-right: 125px;
+    height: 55px;
+    border-style: solid;
+	border-color: black;
+}
+
+.btn-grp-2 i {
+	padding-bottom: 20px;
+}
+
+.btn-grp-2:hover {
+    padding-bottom: 50px;
+    position: relative;
+    bottom: 175px;
+}
+
+.btn-grp-2 a:hover {
+	color: #810016;
+	font-weight: bold;
+	border-style: solid;
+	border-color: #810016;
+	margin-left: 125px;
+    margin-right: 125px;
+}
+
+.form-btn button {
+	color: black;
+	border-style: solid;
+	border-color: black;
+    height: 43px;
+}
+
+.form-btn button:hover {
+	color: #810016;
+	font-weight: bold;
+	border-style: solid;
+	border-color: #810016;
+}
+
+.listen-icon {
+	position: fixed;
+	display: inline-block;
+	bottom: 10px;
+	left: 15px;
+	opacity: .5;
+}
+
+.listen-icon i {
+	color: black;
+}
+
+/*Listen Page*/
+
+.listen-header {
+	background-color: black;
+	position: relative;
+	bottom: 250px;
+	height: 330px;
+	width: 100%;
+	opacity: .5;
+}
+
+.header-text {
+	color: whitesmoke;
+	position: relative;
+	bottom: 387px;
+	font-size: 90px;
+	margin-bottom:0px;
+
+}
+
+.header-text2 {
+	color: black;
+	position: relative;
+	bottom: 515px;
+    left: 3px;
+    font-size: 89px;
+    margin-bottom:0px;
+
+}
+
+.section-font h3 {
+    font-size: 45px;
+    position: relative;
+    bottom: 515px;
+}
+
+
+/*.section-background {
+	display: inline-block;
+	position: relative;
+	bottom: 419px;
+	background-color: whitesmoke;
+	height: 500px;
+	width: 300px;
+	opacity: .5;
+}
+*/
+
+.section-font img {
+	position: relative;
+	bottom: 515px;
+	padding-bottom: 20px !important;
+	min-height: 250px;
+	height: 300px;
+	max-width: 300px;
+}
+
+
+
+.show-list {
+    background-color: whitesmoke;
+    width: 100%;
+    position: relative;
+    bottom: 515px;
+    max-height: 300px;
+    overflow: scroll;
+}
+
+.show-list li {
+    padding: 20px 5px 20px 5px;
+    font-size: 18px;
+}
+
+.show-list-box {
+    max-height: 300px;
+}
+
+.show-list-bg1 {
+	background-color: whitesmoke;
+	border-bottom: 1px solid #000;
+}
+
+.show-list-bg2 {
+	background-color: white;
+	border-bottom: 1px solid #000;
+}
+
+
+/*About Page*/
+
+.about-title {
+	position: relative;
+	bottom: 467px;
+
+}
+
+.band-pic-container {
+	position: relative;
+	bottom: 400px;
+}
+
+.band-pic {
+	width: 200px;
+	height: 200px;
+	min-height:225px;
+	min-width:225px;
+}
+
+.about-section {
+    padding-bottom: 20px;
+    margin-right: 20px;
+    position: relative;
+    bottom: 515px;
+    font-size: 24px;
+    font-family: quicksand-reg;
+    font-weight: bold;
+    text-align: left;
+    max-height: 500px;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    background-color: whitesmoke
+}
+
+.slider {
+    bottom: 480px;
+}
+
+.bar-img {
+	position: relative;
+	bottom: 560px;
+}
+
+/*Contact Section*/
+
+.social-position {
+	position: relative;
+	bottom: 490px;
+}
+
+
+.form-style {
+	position: relative;
+	bottom: 490px;
+	padding-bottom: 10px !important;
+}
+
+
+/*.form-style textarea{
+	height: 250px;
+}*/
+/* FOR NAVBAR */
+
+.fa-bars {
+	color: #FFD73A;
+	position: fixed;
+	top: 0px;
+	left: 5px;
+	z-index:5;
+}
+
+.side-nav {
+	background-color: #000 !important;
+}
+
+.side-nav a {
+	color: #FFD73A !important;
+	font-size: 20px !important;
+	padding-left: 5px !important;
+}
+
+.side-nav a:hover {
+	color: #D40024 !important;
+}
+
+.side-nav i {
+	padding-right: 7px !important;
+}
+
+.side-nav img {
+	margin-top: 365px;
+}
+
+.nav-header {
+	color: #FFD73A !important;
+	font-size: 25px !important;
+	padding-left: 77px !important;
+	border-bottom-style: solid;
+	font-family: quicksand-bold;
+	border-bottom-color: #FFD73A;
+}

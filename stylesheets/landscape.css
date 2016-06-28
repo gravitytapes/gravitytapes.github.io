@@ -1,0 +1,164 @@
+@-ms-viewport {
+  width: device-width;
+  height: device-height;
+}
+
+#pp-nav.right {
+    display: none;
+}
+
+.listen-icon {
+    display: none;
+}
+
+.name-position {
+    margin-top: -27px;
+    height: 200px;
+    width: 300px;
+}
+
+.random-name {
+    bottom: 72px;
+    left: 369px;
+    font-size: 12px;
+}
+
+.btn-grp-1 {
+    top: -73px;
+}
+
+.btn-grp-1:hover {
+    top: -73px;
+}
+
+.btn-grp-1 a {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+}
+
+.btn-grp-1 a:hover {
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+}
+
+.social-icons {
+    padding-top: 27px;
+    position: relative;
+    bottom: 40px;
+    right: 0px;
+    font-size: 10px;
+}
+
+.header-text2 {
+    bottom: 485px;
+    left: 0px;
+    font-size: 63px;
+}
+
+.header-text {
+    bottom: 387px;
+    font-size: 62px;
+}
+
+.listen-header {
+    bottom: 291px;
+    height: 333px;
+}
+
+.section-font h3 {
+    font-size: 28px;
+    margin-bottom: 0px;
+    margin-top: 7px;
+}
+
+.social-position {
+    display: none;
+}
+
+.form-style {
+    position: relative;
+    bottom: 546px;
+    height: 100%;
+    width: 100% !important;
+}
+
+.form-style h3 {
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.form-style textarea {
+    height: 120px;
+}
+
+
+.form-style input[type=text] {
+    margin-top: 9px;
+    height: 12px;
+}
+
+.form-style input[type=email] {
+    margin-top: 9px;
+    height: 12px;
+}
+
+.form-btn button {
+    height: 30px;
+    font-size: 15px; 
+}
+
+.section-font img {
+    min-height: 0px;
+    max-width: 173px;
+    width: 150px;
+    height: 150px;
+}
+
+.btn-grp-2 {
+    bottom: 300px;
+    left: 175px;
+}
+
+.btn-grp-2:hover {
+    bottom: 300px;
+    left: 175px;
+}
+
+.about-section {
+    display: none;
+}
+
+.slider {
+    bottom: 528px;
+}
+
+.slider ul {
+	height: 62% !important;
+    width: 100% !important;
+}
+
+.btn-custom2 {
+    display: none;
+}
+
+.btn-grp-2 a {
+    height: 0px;
+    border-style: solid;
+    border-color: black;
+    display: none;
+}
+
+.mobile-hide h3 {
+    display: none;
+}
+
+.mobile-font h3 {
+    display: none;
+}
+
+.mobile-font ul {
+    display: none;
+}

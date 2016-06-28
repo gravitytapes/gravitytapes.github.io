@@ -1,0 +1,40 @@
+.section-font img {
+	min-height: 200px;
+	height: 200px;
+}
+
+.btn-grp-2 {
+    top: 59px;
+}
+
+.section-font h3 {
+    font-size: 37px;
+    position: relative;
+    bottom: 500px;
+}
+
+.name-position {
+    margin-top: 75px;
+    height: 350px;
+    width: 500px;
+}
+
+.random-name {
+    bottom: 115px;
+    left: 332px;
+}
+
+.form-style {
+    position: absolute;
+    bottom: 210px;
+    right: 36px !important;
+    padding-bottom: 10px !important;
+}
+
+.mobile-header {
+    display: none;
+}
+
+.mobile-hide {
+    display: none;
+}

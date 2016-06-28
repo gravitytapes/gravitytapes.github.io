@@ -1,0 +1,31 @@
+.random-name {
+    bottom: 72px;
+    left: 165px;
+    font-size: 12px;
+}
+
+.section-font {
+    position: absolute;
+    bottom: -64px;
+}
+
+.section-font img {
+    min-height: 0px;
+    max-width: 149px;
+    width: 150px;
+    height: 130px;
+}
+
+.form-style {
+    position: relative;
+    bottom: 12px;
+    height: 100%;
+    width: 100% !important;
+}
+
+.about-section {
+    bottom: 75px;
+    font-size: 17px;
+    max-height: 150px;
+    margin-bottom: 0px;
+}

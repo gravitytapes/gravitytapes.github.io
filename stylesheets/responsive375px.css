@@ -1,0 +1,122 @@
+#pp-nav.right {
+    right: 0px !important;
+}
+
+.side-nav img {
+    margin-top: -7px;
+    margin-left: 20px;
+}
+
+.random-name {
+    bottom: 75px;
+    left: 141px;
+}
+
+.social-icons {
+    padding-top: 33px;
+}
+
+.social-icons {
+    padding-top: 0px;
+}
+
+.social-icons a {
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 10px;
+}
+
+.btn-grp-1 {
+    top: -80px;
+}
+
+.btn-grp-1:hover {
+    top: -80px;
+}
+
+.section-font {
+    position: absolute;
+    bottom: 0px;
+}
+
+.section-font img {
+    bottom: 234px;
+    min-height: 0px;
+    height: 140px;
+    max-width: 148px;
+    margin-bottom: 0px;
+}
+
+.section-font h3 {
+    font-size: 37px;
+    position: relative;
+    bottom: 200px;
+}
+
+.mobile-font h3 {
+    margin-top: 53px;
+}
+
+.mobile-hide {
+    display: none;
+}
+
+.section-font h3 {
+    font-size: 25px;
+}
+
+.materialboxed {
+	width: auto;
+  	height: auto;
+}
+
+.btn-grp-2 a {
+    margin: auto;
+    font-size: 23px;
+}
+
+.show-list {
+    background-color: whitesmoke;
+    width: 94%;
+    position: absolute;
+    bottom: 75px;
+    max-height: 135px;
+    overflow: scroll;
+}
+
+.slider {
+    top: 0px;
+}
+
+.slider ul {
+	height: 275px !important;
+}
+
+.form-style {
+    position: absolute;
+    bottom: 50px;
+}
+
+.social-position {
+    bottom: 522px;
+}
+.social-position a {
+	font-size: 10px;
+}
+
+.form-btn button {
+    height: 37px;
+    font-size: 20px;
+}
+
+.form-btn button:hover {
+	height: 37px;
+	font-size: 20px;
+}
+
+.about-section {
+    bottom: 60px;
+    font-size: 17px;
+    max-height: 150px;
+    margin-bottom: 0px;
+}

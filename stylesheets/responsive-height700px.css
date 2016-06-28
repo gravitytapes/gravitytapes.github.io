@@ -1,0 +1,87 @@
+#pp-nav.right {
+    right: 0px !important;
+}
+
+.btn-grp-2 {
+    padding-bottom: 50px;
+    position: absolute;
+    bottom: -211px;
+}
+
+.btn-grp-2:hover {
+    padding-bottom: 50px;
+    position: absolute;
+    bottom: -211px;
+}
+
+.btn-grp-1 {
+    bottom: 120px;
+}
+
+.btn-grp-1:hover {
+    bottom: 120px;
+}
+
+.section-font h3 {
+    position: absolute;
+    bottom: 470px;
+    left: 451px;
+}
+
+.section-font img {
+    min-height: 100px;
+    height: 165px;
+}
+
+.rareMeat {
+	position: absolute;
+	left: 50px;
+}
+
+.bs {
+	position: absolute;
+	left: 50px;
+	bottom: -325px;
+
+}
+
+.kurtV {
+	position: absolute;
+	left: 200px;
+}
+
+.about-section {
+    position: absolute;
+    bottom: 68px;
+    max-height: 432px;
+    width: 50%;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    left: 466px;
+}
+
+.social-position {
+    position: absolute;
+    bottom: 415px;
+    left: 212px;
+}
+
+.form-style {
+    position: relative;
+    bottom: 563px;
+}
+
+.show-list {
+    width: 50%;
+    position: absolute;
+    bottom: 179px;
+    right: 5px;
+}
+
+.real-hide {
+	display: none;
+}
+

@@ -1,0 +1,19 @@
+.random-name {
+    bottom: 168px;
+    left: 555px;
+}
+
+.btn-grp-1 a {
+    color: black;
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-top: 10px;
+    height: 43px;
+    border-style: solid;
+    border-color: black;
+}
+
+.section-font img {
+	min-height: 250px;
+	height: 295px;
+}

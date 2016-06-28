@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html ng-app="mainApp">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<!-- <meta name="viewport" content="width=600, initial-scale=1"> -->
+<title>Gravity Tapes</title>
+<link rel="stylesheet" type="text/css" href="./stylesheets/main.css">
+<!-- Responsive Web Design Breakpoints -->
+<!-- <link rel="stylesheet" type="text/css" href="/stylesheets/responsive-height700px.css" media="screen and (max-height: 700px)"> -->
+<!-- <link rel="stylesheet" type="text/css" href="/stylesheets/landscape.css" media="screen and (max-height: 500px)"> -->
+<link rel="stylesheet" type="text/css" href="/stylesheets/responsive1435px.css" media="screen and (max-width: 1435px)">
+<link rel="stylesheet" type="text/css" href="/stylesheets/responsive1120px.css" media="screen and (max-width: 1120px)">
+<link rel="stylesheet" type="text/css" href="/stylesheets/responsive930px.css" media="screen and (max-width: 930px)">
+<link rel="stylesheet" type="text/css" href="/stylesheets/responsive700px.css" media="screen and (max-width: 700px)">
+<link rel="stylesheet" type="text/css" href="/stylesheets/responsive600px.css" media="screen and (max-width: 600px)">
+<link rel="stylesheet" type="text/css" href="/stylesheets/responsive500px.css" media="screen and (max-width: 500px)">
+<link rel="stylesheet" type="text/css" href="/stylesheets/responsive435px.css" media="screen and (max-width: 435px)">
+<link rel="stylesheet" type="text/css" href="/stylesheets/responsive414px.css" media="screen and (max-width: 414px)">
+<link rel="stylesheet" type="text/css" href="/stylesheets/responsive375px.css" media="screen and (max-width: 375px)">
+<link rel="stylesheet" type="text/css" href="/stylesheets/responsive330px.css" media="screen and (max-width: 330px)">
+<!-- CSS Icons and Fonts -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<!-- CSS Framework -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+<!-- jquery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+<!-- Angular -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.6/angular.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.6/angular-animate.min.js"></script>
+<!-- Materialize JS -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+<!-- Pagepiling JS -->
+<link rel="stylesheet" type="text/css" href="jquery.pagepiling.css"/>
+<script type="text/javascript" src="jquery.pagepiling.js"></script>
+<!-- Soundcloud API Widget -->
+<!-- <script type="text/javascript" src="https://w.soundcloud.com/player/api.js"></script>
+ --><!-- My JS Files -->
+<script type="text/javascript" src="views/js/main.js"></script>
+<script type="text/javascript" src="views/js/nameApp.js"></script>
+<script type="text/javascript" src="views/js/nameApp.Troller.js"></script>
+<script type="text/javascript" src="views/js/jotForm.js"></script>
+</head>
+<body ng-controller="mainTroller">
+		<!-- START NAVBAR -->
+	<ul id="slide-out" class="side-nav">
+	  <li class="nav-header"><i class="fa fa-compass" aria-hidden="true"></i>Menu</li>
+	  <li data-menuanchor="firstPage"><a href="#firstPage"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+      <li data-menuanchor="secondPage"><a href="#secondPage"><i class="fa fa-headphones" aria-hidden="true"></i>Listen</a></li>
+      <li data-menuanchor="thirdPage"><a href="#thirdPage"><i class="fa fa-cubes" aria-hidden="true"></i>About</a></li>
+      <li data-menuanchor="fourthPage"><a href="#fourthPage"><i class="fa fa-envelope-o" aria-hidden="true"></i>Contact</a></li>
+      <img src="pics/GTLetters.png" height="250px" width="250px">
+    </ul>
+    <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="fa fa-bars fa-2x icon-background" aria-hidden="true"></i></a>
+    <!-- END NAVBAR -->
+<div id="pagepiling">
+<div class="section mainbackground">
+	<div class="half-opacity"></div>
+		<div class="social-icons right-align">
+			<a href="https://soundcloud.com/gravity-tapes" class="tooltipped" data-position="top" data-delay="50" data-tooltip="SoundCloud"><i class="fa fa-soundcloud fa-3x" aria-hidden="true"></i></a>
+			<a href="https://www.facebook.com/GravityTapes/" class="tooltipped" data-position="top" data-delay="50" data-tooltip="Facebook"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a>
+			<a href="https://www.instagram.com/gravitytapesmusic/" class="tooltipped" data-position="top" data-delay="50" data-tooltip="Instagram"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+			<a href="https://twitter.com/GravityTapes?lang=en" class="tooltipped" data-position="top" data-delay="50" data-tooltip="Twitter"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+			<a href="https://www.reverbnation.com/gravitytapes" class="tooltipped" data-position="top" data-delay="50" data-tooltip="Reverb Nation"><i class="fa fa-star fa-3x" aria-hidden="true"></i></a>
+			<a href="http://gravitytapes.bandcamp.com/" class="tooltipped" data-position="top" data-delay="50" data-tooltip="bandcamp"><i class="fa fa-eraser fa-3x"></i></a>
+		</div>
+			<div class="center-align">
+				<img src="./pics/gt-black.png" height="500px" width="700px" class="center-align name-position">
+			</div>
+			<p class="random-name fade" ng-show="showName">AKA {{altName}}</p>
+		<div class="btn-grp-1 center-align">
+			<a class="waves-effect N/A transparent btn btn-custom" href="#fourthPage"></i>Contact</a>
+			<a class="waves-effect N/A transparent btn btn-custom" href="#secondPage"></i>Listen</a>
+		</div>
+</div>
+<!-- Modal Structure -->
+  <div id="modal3" class="modal mobile-hide">
+    <div class="modal-content mobile-hide">
+    	<div class="row right-align close-position">
+    		<a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat"><i class="fa fa-times fa-3x"></i></a>
+    	</div>
+    	<div class="center-align">
+	      	<h4>Rare Meat Available Now</h4>
+	      	<img src="http://f4.bcbits.com/img/a3596350551_16.jpg">
+      	</div>
+      	<div class="modal-footer">
+      		<a href="http://www.cdbaby.com/cd/gravitytapes2" class=" modal-action modal-close waves-effect waves-yellow btn-flat">Buy Now</a>
+    	</div>
+    </div>
+  </div>
+	<div class="section mainbackground pp-scrollable">
+		<div class="half-opacity"></div>
+		<div class="row">
+			<div class="center-align">
+				<div class="listen-header"></div>
+				<h1 class="header-text">listen</h1>
+				<h1 class="header-text2">listen</h1>
+			</div>
+		</div>
+<!-- 		<div class="container"> -->
+			<div class="row">
+				<div class="col s12 m6 section-font mobile-font">
+<!-- 					<div class="section-background"></div> -->
+					<h3 class="mobile-hide center-align hide">Albums</h3>
+						<div>
+							<a class="modal-trigger rareMeat" href="#rareMeat">
+								<img class='col s12 col m6 center-align' src="http://f4.bcbits.com/img/a3596350551_16.jpg">
+							</a>
+							<a class="modal-trigger bs" href="#bs">
+								<img class="col s12 col m6 center-align" src="https://i1.sndcdn.com/artworks-000075912306-5tfr9n-t500x500.jpg">
+							</a>
+							<a class="modal-trigger kurtV" href="#kurtV">
+								<img class='col s12 col m6 center-align' src="https://i1.sndcdn.com/artworks-000107080548-hzzst7-t500x500.jpg">
+							</a>
+						</div>
+				</div>
+				<div class="col s12 m6 center-align section-font mobile-font">
+					<h3>Upcoming Shows</h3>
+					<div class="show-list">
+						<ul>
+							<li ng-repeat="show in showlist" ng-class="{'show-list-bg1' : $even, 'show-list-bg2' : $odd }">{{show.where}}<br> {{show.when}}<br> <address>{{show.address}}</address> {{show.cost}}</li>			
+						</ul>
+					</div>
+					<div class="btn-grp-2">
+						<a class="waves-effect  N/A transparent btn btn-custom2 btn-large">BUY SWAG!</a>
+					</div>
+				</div>
+			</div>
+	</div>
+				<!-- Modal Structure -->
+	  <div id="rareMeat" class="modal bottom-sheet">
+	    <div class="modal-content center-align">
+	    	<div class="center-align">
+				<iframe style="border: 0; width: 100%; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album=1700026087/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://gravitytapes.bandcamp.com/album/rare-meat">Rare Meat</a></iframe>
+			</div>
+	    </div>
+	  </div>
+			<!-- Modal Structure -->
+	  <div id="kurtV" class="modal bottom-sheet">
+	    <div class="modal-content center-align">
+	    	<div class="center-align">
+				<iframe style="border: 0; width: 100%; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album=2319116573/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://gravitytapes.bandcamp.com/album/kurtvee-gravity-tapes">KURTVEE / Gravity Tapes</a></iframe>
+			</div>
+	    </div>
+	  </div>
+	  			<!-- Modal Structure -->
+	  <div id="bs" class="modal bottom-sheet">
+	    <div class="modal-content center-align">
+	    	<div class="center-align">
+				<iframe style="border: 0; width: 100%; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album=2866454072/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://gravitytapes.bandcamp.com/album/the-blue-suede-ep">The Blue Suede EP by Gravity Tapes</a></iframe>
+			</div>
+	    </div>
+	  </div>
+<div class="section mainbackground pp-scrollable">
+	<div class="half-opacity"></div>
+		<div class="row">
+			<div class="center-align">
+				<div class="listen-header"></div>
+				<h1 class="header-text">about</h1>
+				<h1 class="header-text2">about</h1>
+			</div>
+		</div>
+<!-- 	<div class="container"> -->
+		<div class="row center-align">
+			<div class="col s12 col m6 section-font">
+				<p class="about-section">The art is synonymous of themselves, a true expression of their collective experiences: Gravity Tapes is both a night in with a bottle of wine, and a night out on the town you will not soon forget. The guitar work of Drew McClellan is as mellow and cool as it is kinetic and aggressive. Matched by his clever, catchy vocals; the lyrical content is interesting and intuitive- keeping you in anticipation of the next hook. Saxophonist, Nate Larkin compliments the guitar with smooth moving, mellow tones moving in and out of the guitar chords, giving Gravity Tapes their laid back feel. The rhythm produced by bassist Jarod Elrod and drummer Ian Maxwell can be confused for the pounding pagan heartbeat of a party monster or the thumping march of a gypsy caravan, demanding your locomotion, the movement is contagious and it affecting you is inevitable. Gravity Tapes is an epidemic in which no one sits still.</p>
+			</div>
+			<div class="col s12 col m6">
+				<div class="slider">
+				    <ul class="slides">
+				      <li>
+				        <img src="./pics/drewPic.jpg"> 
+				      </li>
+				      <li>
+				        <img src="./pics/ianPic.jpg"> 
+				      </li>
+				      <li>
+				        <img src="./pics/jarredPic.jpg"> 
+				      </li>
+				      <li>
+				        <img src="./pics/natePic.jpg"> 
+				      </li>
+				      <li>
+				        <img src="./pics/nateNjarred.png"> 
+				      </li>
+				      <li>
+				        <img src="./pics/drewNjarred.png"> 
+				      </li>
+				      <li>
+				        <img src="./pics/GTnakie.png"> 
+				      </li>
+				      <li>
+				        <img src="./pics/GTNakie2.png"> 
+				      </li>
+				      <li>
+				        <img src="./pics/GravityTapesFunPic.png"> 
+				      </li>
+				    </ul>
+			  	</div>
+			</div>
+		</div>
+<!-- 	</div> -->
+	<div class="row center-align bar-img mobile-hide real-hide">
+		<img src="./pics/GravityTapesImgBar.png">
+	</div>
+</div>
+<div class="section mainbackground2 pp-scrollable">
+	<div class="half-opacity"></div>
+	<div class="contact-background">
+		<div class="center-align">
+			<div class="listen-header"></div>
+			<h1 class="header-text">contact</h1>
+			<h1 class="header-text2">contact</h1>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="social-icons col s12 col l6 section-font mobile-header mobile-hide real-hide">
+					<h3 class="social-header center-align">Gravity Tapes On Social</h3>
+					<div class="social-position center-align">
+						<a target="_blank" href="https://soundcloud.com/gravity-tapes"><i class="fa fa-soundcloud fa-5x" aria-hidden="true"></i></a>
+						<a target="_blank" href="https://www.facebook.com/GravityTapes/
+						"><i class="fa fa-facebook-official fa-5x" aria-hidden="true"></i></a>
+						<a target="_blank" href="https://www.instagram.com/gravitytapesmusic/"><i class="fa fa-instagram fa-5x" aria-hidden="true"></i></a>
+						<a target="_blank" href="https://twitter.com/GravityTapes?lang=en"><i class="fa fa-twitter-square fa-5x" aria-hidden="true"></i></a>
+					</div>
+				</div>
+				<form class="col s12 col l6 form-style form-header">
+					<iframe id="JotFormIFrame" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="https://form.jotform.com/61645465168160" frameborder="0" style="width:110%; height:570px; border:none;" scrolling="no"> </iframe>
+				</form>
+
+				<!-- NODEMAILER FORM -->
+<!-- 					<form class="col s12 col l6 form-style form-header" ng-submit="sendEmail()">
+						<h3 class="center-align">Email Gravity Tapes</h3>
+						<input class="input form-control emailName" id="emailName" type="text" placeholder="Name" ng-model="email.name">
+						<input class="input form-control emailAddress" id="emailAddress" type="email" placeholder="Email" ng-model="email.address">
+						<input class="input form-control emailSubject" id="subject" type="text" placeholder="Subject" ng-model="email.subject" >
+						<textarea class="input form-control emailBody" id="content" cols="40" rows="5" placeholder="Message" ng-model="email.message"></textarea>
+						<div class="form-btn center-align">
+							<button type="submit" class="form-control emailSend waves-effect waves-light N/A transparent btn align-left btn-custom3" id="send_email" onclick="Materialize.toast('Message sent! GT will get back at ya', 3000)">Send Email</button>
+						</div>
+					</form> -->
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</body>
+</html>
