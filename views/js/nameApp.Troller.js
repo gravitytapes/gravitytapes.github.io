@@ -40,12 +40,6 @@ angular.module('mainApp')
 	//Show List
 	$scope.showlist = [
 		{
-			where: "The Flux Capacitor",
-			address: "3530 Chelton Loop N Colorado Springs, Colorado 80909",
-			when: "June 24, 2016",
-			cost: "$5 - $7 recommened donation"
-		},
-		{
 			where: "The Hatch",
 			address: "402 15th St, Oakland, CA 94612",
 			when: "July 2, 2016",
