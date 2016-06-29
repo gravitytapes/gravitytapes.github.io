@@ -47,13 +47,13 @@ angular.module('mainApp')
 		},
 		{
 			where: "Ehler's Society",
-			address: "2058 11th Arcata, CA",
+			address: "3240 Ehlers Ln, St Helena, CA 94574",
 			when: "July 3, 2016",
 			cost: "FREE"
 		},
 		{
 			where: "House Show",
-			address: "3240 Ehlers Ln, St Helena, CA 94574",
+			address: "2058 11th Arcata, CA",
 			when: "July 4, 2016",
 			cost: "FREE"
 		},
