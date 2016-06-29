@@ -47,19 +47,25 @@ angular.module('mainApp')
 		},
 		{
 			where: "The Hatch",
-			address: "402 15th St, Oakland, California 94612",
+			address: "402 15th St, Oakland, CA 94612",
 			when: "July 2, 2016",
 			cost: "FREE"
 		},
 		{
-			where: "House Show",
+			where: "Ehler's Society",
 			address: "2058 11th Arcata, CA",
+			when: "July 3, 2016",
+			cost: "FREE"
+		},
+		{
+			where: "House Show",
+			address: "3240 Ehlers Ln, St Helena, CA 94574",
 			when: "July 4, 2016",
 			cost: "FREE"
 		},
 		{
 			where: "Ash St. Saloon",
-			address: "225 SW Ash St, Portland, Oregon 97204",
+			address: "225 SW Ash St, Portland, OR 97204",
 			when: "July 5, 2016",
 			cost: "$5"
 		},
@@ -71,7 +77,7 @@ angular.module('mainApp')
 		},
 		{
 			where: "Denver Beer Co",
-			address: "1695 Platte St, Denver, Colorado 80202",
+			address: "1695 Platte St, Denver, CO 80202",
 			when: "July 9, 2016",
 			cost: "FREE"
 		},
@@ -83,7 +89,7 @@ angular.module('mainApp')
 		},
 		{
 			where: "3 Kings Tavern",
-			address: "60 S Broadway, Denver, Colorado 80209",
+			address: "60 S Broadway, Denver, CO 80209",
 			when: "August 12, 2016",
 			cost: "FREE"
 		}
