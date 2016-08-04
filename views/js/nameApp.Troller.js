@@ -40,54 +40,43 @@ angular.module('mainApp')
 	//Show List
 	$scope.showlist = [
 		{
-			where: "The Hatch",
-			address: "402 15th St, Oakland, CA 94612",
-			when: "July 2, 2016",
-			cost: "FREE"
-		},
-		{
-			where: "Ehler's Society",
-			address: "3240 Ehlers Ln, St Helena, CA 94574",
-			when: "July 3, 2016",
-			cost: "FREE"
-		},
-		{
-			where: "House Show",
-			address: "2058 11th Arcata, CA",
-			when: "July 4, 2016",
-			cost: "FREE"
-		},
-		{
-			where: "Ash St. Saloon",
-			address: "225 SW Ash St, Portland, OR 97204",
-			when: "July 5, 2016",
-			cost: "$5"
-		},
-		{
-			where: "Le Voyeur",
-			address: "404 4th Ave E, Olympia, WA 98501",
-			when: "July 7, 2016",
-			cost: "FREE"
-		},
-		{
-			where: "Denver Beer Co",
-			address: "1695 Platte St, Denver, CO 80202",
-			when: "July 9, 2016",
-			cost: "FREE"
-		},
-		{
-			where: "Syntax Physic Opera",
-			address: "554 S Broadway Denver, CO",
-			when: "July 14, 2016",
-			cost: "$7"
-		},
-		{
 			where: "3 Kings Tavern",
 			address: "60 S Broadway, Denver, CO 80209",
 			when: "August 12, 2016",
 			cost: "FREE"
+		},
+		{
+			where: "Goosetown Tavern",
+			address: "3242 E Colfax Ave, Denver, CO 80206",
+			when: "August 19, 2016",
+			cost: "FREE"
+		},
+		{
+			where: "Gary Lee's Motorcycyle Club and Grub",
+			address: "176 S Broadway, Denver, CO 80209",
+			when: "September 17, 2016",
+			cost: "FREE"
+		},
+		{
+			where: "Skylark Lounge",
+			address: "140 S Broadway, Denver, CO 80209",
+			when: "October 15, 2016",
+			cost: "FREE"
 		}
 	]
+
+	$scope.removeShow = function(show){
+		$scope.showlist.splice(show)
+	}
+
+	$scope.checkShowAndRemove = function(){
+		var today = new Date()
+		for (i = 0; i <= $scope.showlist.length; i++){
+			if (today > $scope.showlist[i]){
+				$scope.removeShow(i)
+			}
+		}
+	}
 
 	$scope.hideName = function(){
 		$scope.showName = false
