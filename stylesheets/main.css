@@ -24,6 +24,11 @@ html, body{
 	overflow: hidden;
 }
 
+.pagecover {
+	z-index: 1000;
+	background-color: black !important;
+}
+
 .icon-background {
 	background-color: black;
 	padding: 8px;
@@ -173,12 +178,17 @@ html, body{
 }
 
 .btn-grp-1 a:hover {
-	color: #810016;
+	color: white;
 	font-weight: bold;
 	border-style: solid;
-	border-color: #810016;
+	border-color: white;
 	margin-left: 125px;
     margin-right: 125px;
+}
+
+.btn-custom:hover {
+
+	background-color: black !important;
 }
 
 .btn-grp-1 i {
@@ -188,6 +198,10 @@ html, body{
 
 .btn-custom2 i {
 	padding: 0px 10px 0px 10px;
+}
+
+.btn-custom2:hover {
+	background-color: black !important;
 }
 
 .btn-custom3 {
@@ -220,10 +234,10 @@ html, body{
 }
 
 .btn-grp-2 a:hover {
-	color: #810016;
+	color: white;
 	font-weight: bold;
 	border-style: solid;
-	border-color: #810016;
+	border-color: white;
 	margin-left: 125px;
     margin-right: 125px;
 }
@@ -324,7 +338,7 @@ html, body{
 
 .show-list li {
     padding: 20px 5px 20px 5px;
-    font-size: 18px;
+    font-size: 30px;
 }
 
 .show-list-box {

@@ -22,7 +22,7 @@ $(document).ready(function(){
  $(document).ready(function(){
     // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
     $('#modal3').openModal({
-        in_duration: 3500,
+        in_duration: 1500,
         out_duration: 1000
     });
   });
