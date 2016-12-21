@@ -24,11 +24,6 @@ html, body{
 	overflow: hidden;
 }
 
-.pagecover {
-	z-index: 1000;
-	background-color: black !important;
-}
-
 .icon-background {
 	background-color: black;
 	padding: 8px;
@@ -457,4 +452,16 @@ html, body{
 	border-bottom-style: solid;
 	font-family: quicksand-bold;
 	border-bottom-color: #FFD73A;
+}
+
+
+/*Right Side Nav*/
+
+#pp-nav span, .pp-slidesNav span {
+    width: 18px !important;
+    height: 18px !important;
+}
+
+.pp-tooltip {
+	color: black !important;
 }
