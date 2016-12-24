@@ -54,12 +54,12 @@ html, body{
 
 /*FOR BACKGROUNDS*/
 .mainbackground {
-	background-image: url(../pics/backgroundPic.png);
+	background-image: url(../pics/backgroundPic.jpg);
 	background-size: 100%;
 }
 
 .mainbackground2 {
-	background-image: url(../pics/backgroundPic.png);
+	background-image: url(../pics/backgroundPic.jpg);
 	background-size: 100%;
 }
 /*END BACKGROUNDS*/
